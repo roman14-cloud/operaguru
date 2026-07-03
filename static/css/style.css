@@ -1,0 +1,79 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+
+}
+header{
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#hero{
+    background-image: url(static/images.jpeg);
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 20px;
+    color: aquamarine;
+    text-align: center;
+    height: 250px;
+}
+#container{
+    max-width: 800px;
+    margin:0px auto
+}
+#about{
+    border: 1px solid blue;
+    padding: 20px;
+   max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px greenyellow;
+}
+#mission{
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    box-shadow: 0 0 10px greenyellow;
+
+}
+#vision{
+    border: 1px solid blue;
+     margin-top: 10px;
+     padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0  10px greenyellow
+
+
+}
+h2{
+    color: rgb(138, 255, 127);
+}
+h3{
+    color: chartreuse;
+}
+footer{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+padding: 10px;
+}
+nav a:hover{
+background-color: cadetblue;
+color: chartreuse;
+}
